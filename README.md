@@ -1,6 +1,6 @@
-Tribute Page to John Steinbeck:
+# Tribute Page to John Steinbeck:
 
-FCC Basic Front End Development Projects: Build a Tribute Page
+## FCC Basic Front End Development Projects: Build a Tribute Page
 
 1- I can view a tribute page with an image and text.
 
