@@ -1,34 +1,62 @@
-h1{
-    font-size:70px;
-  }
+.container {
+  width: 90%;
+}
 
-  h2{
-    font-family:palatino linotype;
-  }
+h1 {
+  font-size: 70px;
+}
 
-  img{
-    width:700px;
-    border-color: black;
-    border-width: 15px;
-    border-style: solid;
-    border-radius: 50px;
-    margin: 20px;
-    padding: 5px 5px 35px 5px;
-  }
+h2 {
+  font-family: palatino linotype;
+}
 
-  ul{
-    font-style:georgia;
-  }
+img {
+  width: 700px;
+  border-color: black;
+  border-width: 15px;
+  border-style: solid;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 5px 5px 35px 5px;
+}
 
-  .caption{
-    font-style:italic;
-    font-size:18px;
-    margin-top:-65px;
-    margin-bottom:50px;
-    text-align:center;
-  }
+.books {
+  padding-top: 100px;
+}
 
-  .well{
-    padding-top:-15px;
-    padding-bottom:-15px;
-       }
+.books > h2 {
+  margin-left: 70px;
+}
+
+ul {
+  font-style: georgia;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 18px;
+  margin-top: -65px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.well {
+  padding-top: -15px;
+  padding-bottom: -15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  img {
+    margin: auto;
+  }
+  .container {
+    width: 80%;
+  }
+  .caption {
+    margin-top: -45px;
+  }
+}
